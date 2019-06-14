@@ -3,8 +3,6 @@ from job import Job
 from bs4 import BeautifulSoup
 from writer import writeJobsToFile
 import requests
-import pandas as pd
-import time
 
 # indeed.ca job search software engineer in Vancouver BC
 indeedUrl = "https://www.indeed.ca"
